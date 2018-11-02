@@ -88,9 +88,6 @@ WIFI_DRIVER_FW_PATH_AP           := "ap"
 # ANT+
 BOARD_ANT_WIRELESS_DEVICE := "qualcomm-smd"
 
-# Move wcnss_service to vendor
-PRODUCT_VENDOR_MOVE_ENABLED := true
-
 # Include SE policies
 include device/qcom/sepolicy-legacy/sepolicy.mk
 BOARD_SEPOLICY_DIRS += $(PLATFORM_PATH)/sepolicy
