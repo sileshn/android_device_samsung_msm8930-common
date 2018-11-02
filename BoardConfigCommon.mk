@@ -80,9 +80,6 @@ WIFI_DRIVER_MODULE_NAME          := "wlan"
 WIFI_DRIVER_FW_PATH_STA          := "sta"
 WIFI_DRIVER_FW_PATH_AP           := "ap"
 
-# Move wcnss_service to vendor
-PRODUCT_VENDOR_MOVE_ENABLED := true
-
 # DexPreopt debug info
 WITH_DEXPREOPT_DEBUG_INFO := false
 
