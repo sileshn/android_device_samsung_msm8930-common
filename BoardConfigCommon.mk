@@ -80,9 +80,6 @@ WIFI_DRIVER_MODULE_NAME          := "wlan"
 WIFI_DRIVER_FW_PATH_STA          := "sta"
 WIFI_DRIVER_FW_PATH_AP           := "ap"
 
-# Move wcnss_service to vendor
-PRODUCT_VENDOR_MOVE_ENABLED := true
-
 # Include SE policies
 include device/qcom/sepolicy/sepolicy.mk
 include device/qcom/sepolicy/legacy-sepolicy.mk
